@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UniSafe</string>
+    <string name="name">Название</string>
+    <string name="count">Количество</string>
+    <string name="cancel">Отмена</string>
+    <string name="Ok">Oк</string>
+    <string name="new_list">Новый список</string>
+    <string name="add_product">Добавить продукт</string>
+</resources>
