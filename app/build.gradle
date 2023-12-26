@@ -4,6 +4,7 @@ plugins {
     id 'kotlin-kapt'
     id("dagger.hilt.android.plugin")
     id("androidx.navigation.safeargs.kotlin")
+    id 'com.huawei.agconnect'
 }
 
 android {
@@ -38,7 +39,12 @@ android {
     }
 }
 
+apply plugin: 'com.huawei.agconnect'
+
 dependencies {
+
+    implementation 'com.huawei.hms:push:6.11.0.300'
+    implementation 'com.huawei.hms:hmscoreinstaller:6.7.0.300'
 
     //Dagger and Hilt
     implementation("com.google.dagger:hilt-android:2.42")
